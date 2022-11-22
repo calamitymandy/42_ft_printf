@@ -2,4 +2,6 @@ a.out
 .DS_Store
 *.swp
 printfTester
-.gitignore
+ft_printf_tester
+*.o
+*.a

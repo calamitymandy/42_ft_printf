@@ -6,7 +6,7 @@
 /*   By: amdemuyn <amdemuyn@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/15 16:50:39 by amdemuyn          #+#    #+#             */
-/*   Updated: 2022/11/21 17:23:54 by amdemuyn         ###   ########.fr       */
+/*   Updated: 2022/11/22 15:48:43 by amdemuyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,12 +63,11 @@ int	ft_printf(const char *str, ...)
 
 /*int	main()
 {
-	//char test[] = "va chier des bulles";
-	int test = -1;	
-	ft_printf("%p", test);
-	printf("\n%p", test);
+	char test[] = "va chier une bulle";
+	//int test = -1;	
+	ft_printf("%s", test);
+	printf("\n%s", test);
 }
-
 int main(void)
 {
 	int t;
