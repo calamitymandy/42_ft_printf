@@ -53,7 +53,7 @@ int	ft_printf(const char *str, ...)
 		}
 		else
 		{
-			ft_putchar_len((char)str[i], &len);
+			ft_putchar_len(str[i], &len);
 		}
 		i++;
 	}
@@ -61,19 +61,24 @@ int	ft_printf(const char *str, ...)
 	return (len);
 }
 
-/*int	main()
+/*int	main(void)
 {
-	char test[] = "va chier une bulle";
-	//int test = -1;	
-	ft_printf("%s", test);
-	printf("\n%s", test);
-}
-int main(void)
-{
-	int t;
-	char c;
-
-	c = 'a';
-	t = 50;
-	printf("%p\n", NULL);
+	char	test_c = 'x';
+	char	test_percent = 'x';
+	int		test_di = -2147483648;
+	int		test_u = 214748364;
+	char	test_s[] = "va chier des bulles";
+	int		test_x = 2245845;
+	int		test_X = 22978695;
+	int		test_p = 22978695;
+	
+	ft_printf("%c\n", test_c);
+	ft_printf("%%\n", test_percent);
+	ft_printf("%d\n", test_di);
+	ft_printf("%u\n", test_u);
+	ft_printf("%s\n", test_s);
+	ft_printf("%x\n", test_x);
+	ft_printf("%X\n", test_X);
+	ft_printf("%p\n", test_p);
+	
 }*/
