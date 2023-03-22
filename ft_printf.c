@@ -80,5 +80,6 @@ int	ft_printf(const char *str, ...)
 	ft_printf("%x\n", test_x);
 	ft_printf("%X\n", test_X);
 	ft_printf("%p\n", test_p);
+	ft_printf("ceci est un test");
 	
 }*/
