@@ -1,7 +1,0 @@
-a.out
-.DS_Store
-*.swp
-printfTester
-ft_printf_tester
-*.o
-*.a
